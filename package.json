@@ -1,11 +1,12 @@
 {
   "name": "@hanai/html2image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert HTML to image.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "typings": "./index.d.ts",
   "keywords": [
     "html",
     "image",
