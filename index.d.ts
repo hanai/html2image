@@ -1,5 +1,3 @@
-import Stream from "stream";
-
 declare const html2image: (
   html: string,
   opts?: {
@@ -7,8 +5,8 @@ declare const html2image: (
     omitBackground?: boolean;
     viewportWidth?: number;
     viewportHeight?: number;
-    imageType?: "png" | "jpeg";
+    imageType?: "png" | "jpeg" | "webp";
   }
-) => Stream;
+) => Buffer;
 
 export default html2image;

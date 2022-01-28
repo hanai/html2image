@@ -1,6 +1,6 @@
 {
   "name": "@hanai/html2image",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert HTML to image.",
   "main": "index.js",
   "scripts": {
